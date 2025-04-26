@@ -1,0 +1,6 @@
+myapp:
+  memo: This is dev.
+spring:
+  config:
+    activate:
+      on-profile: dev

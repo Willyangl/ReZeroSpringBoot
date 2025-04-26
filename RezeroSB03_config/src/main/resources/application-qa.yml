@@ -1,0 +1,6 @@
+myapp:
+  memo: This is QA.
+spring:
+  config:
+    activate:
+      on-profile: qa

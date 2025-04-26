@@ -1,0 +1,11 @@
+app:
+  name: RezeroSB03
+  owner: Willyang
+  port: 9999
+
+# ?????????????????
+spring:
+  config:
+    import: config/db.yml,config/redis.yml
+  profiles:
+    active: dev
